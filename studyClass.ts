@@ -24,7 +24,7 @@ class hhhh extends Lady1 {
 //重写就是子类可以重新编写父类中的代码
 // 如下
 
-class linzhen extends Lady1 {
+class linzhen11 extends Lady1 {
     sayHi(){//重写了父类中的sayHi方法
         return 'hhh'
     }

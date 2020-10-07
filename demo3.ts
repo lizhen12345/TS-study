@@ -20,10 +20,10 @@ function sayHi(): void {
 
 //never返回值类型
 
-function forNever(): never {
-    while (true) { }
-    console.log(111);
-}
+// function forNever(): never {
+//     while (true) { }
+//     console.log(111);
+// }
 
 //函数参数为对象时（结构）时
 function add({ one, two }: { one: number, two: number }): number {
